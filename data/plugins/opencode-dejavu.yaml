@@ -1,0 +1,4 @@
+name: dejavu
+repo: https://github.com/WhiteBite/opencode-dejavu
+tagline: Cross-session error gates for recurring tool-call failures
+description: Mechanically detects recurring tool-call failures (3 failures across 2 distinct sessions) and promotes them into enforced gates — reminder on the next attempt, hard block on same-session repeat offense. Two-scope store (project gates escalate to global), secret scrubbing before persistence, blocking policy limited to non-diagnostic bash commands, 60-day TTL expiry, doctor/analyze/migrate scripts, companion agent skill and /dejavu status command.
